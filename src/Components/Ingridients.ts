@@ -6,8 +6,8 @@ import baconImg from '../assets/bacon.png';
 import {Ingredient} from './types';
 
 export const INGREDIENTS: Ingredient[] = [
-  {name: 'Meat', price: 50, image: meatImg},
+  {name: 'Meat', price: 80, image: meatImg},
   {name: 'Cheese', price: 50, image: cheeseImg},
-  {name: 'Salad', price: 50, image: saladImg},
-  {name: 'Bacon', price: 50, image: baconImg},
+  {name: 'Salad', price: 10, image: saladImg},
+  {name: 'Bacon', price: 60, image: baconImg},
 ];
