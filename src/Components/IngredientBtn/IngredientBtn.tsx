@@ -7,10 +7,12 @@ interface Props{
 }
 const IngredientBtn:React.FC<Props> = ({ingredient,OnClick}) => {
   return (
+    <div>
     <button onClick={OnClick}>
       <img src={ingredient.image} alt={ingredient.name} style={{ width: '100px' }} />
       <p>{ingredient.name}</p>
     </button>
+    </div>
   );
 };
 
